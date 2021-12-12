@@ -1,2 +1,6 @@
 # PrivateSNN
-[AAAI 2022] PrivateSNN: Fully Privacy-Preserving Spiking Neural Networks. https://arxiv.org/abs/2104.03414
+
+
+Pytorch Implementation for [PrivateSNN: Privacy-Preserving Spiking Neural Networks]
+
+Code will be released soon.
