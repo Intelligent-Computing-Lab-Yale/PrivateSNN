@@ -17,3 +17,5 @@ python ann.py --dataset 'CIFAR10' -a 'VGG16' --optimizer 'SGD' --batch_size 256 
 ```
 
 
+### [STEP 2] Generate synthetic training samples
+
