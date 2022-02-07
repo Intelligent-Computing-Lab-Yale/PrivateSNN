@@ -16,6 +16,7 @@ Pytorch Implementation for [PrivateSNN: Privacy-Preserving Spiking Neural Networ
 
 
 ### [STEP 1] Training ANN (ref: https://github.com/nitin-rathi/hybrid-snn-conversion)
+Trainig ANN architecture with Backpropagation.
 
 ```
 python ann.py --dataset 'CIFAR10' -a 'VGG16' --optimizer 'SGD' --batch_size 256 -lr 1e-2 --lr_interval '0.40 0.60 0.80'
@@ -23,13 +24,14 @@ python ann.py --dataset 'CIFAR10' -a 'VGG16' --optimizer 'SGD' --batch_size 256 
 
 
 ### [STEP 2] Generate synthetic training samples
+Generating synthetic images from pre-trained ANN model.
 
 ```
 python ann_image_gen.py --dataset 'CIFAR10' --num_synimage 1000
 ```
 
 ### [STEP 3] Datafree Conversion
-
+Converting pre-trained ANN model to SNN model with synthetic dataset (from STEP2).
 ```
 python datafree_conversion.py -a 'VGG16' --dataset 'CIFAR10' --timesteps 100 --batch_size 1024 
 ```
