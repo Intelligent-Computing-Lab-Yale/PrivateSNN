@@ -34,3 +34,20 @@ python ann_image_gen.py --dataset 'CIFAR10' --num_synimage 1000
 python datafree_conversion.py -a 'VGG16' --dataset 'CIFAR10' --timesteps 100 --batch_size 1024 
 ```
 
+
+
+
+## Citation
+ 
+Please consider citing our paper:
+ ```
+@article{kim2021privatesnn,
+  title={Privatesnn: Privacy-preserving spiking neural networks},
+  author={Kim, Youngeun and Venkatesha, Yeshwanth and Panda, Priyadarshini},
+  journal={arXiv preprint arXiv:2104.03414},
+  year={2021}
+}
+ ```
+ 
+ 
+ 
