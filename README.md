@@ -1,7 +1,9 @@
 # PrivateSNN
 
 
-Pytorch Implementation for [PrivateSNN: Privacy-Preserving Spiking Neural Networks]
+Pytorch Implementation for [PrivateSNN: Privacy-Preserving Spiking Neural Networks].
+
+Accepted in AAAI2022.
 
 
 ## Prerequisites
