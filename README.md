@@ -5,19 +5,11 @@ Pytorch Implementation for [PrivateSNN: Privacy-Preserving Spiking Neural Networ
 
 
 ## Prerequisites
-* Python 3.9    
-* PyTorch 1.10.0     
+* Python 3.8    
+* PyTorch 1.5.0     
 * NVIDIA GPU (>= 12GB)      
-* CUDA 10.2 (optional)         
 
 ## Getting Started
-
-### Conda Environment Setting
-```
-conda create -n PrivateSNN 
-conda activate PrivateSNN
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-```
 
 ## Training and testing
 
